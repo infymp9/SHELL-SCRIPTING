@@ -22,7 +22,7 @@ same way for a Linux operating system we use an environment called basically
 shell is up process no anything we type in shall receives and sends it to the operating system or kernel 
 and whatever the kernel gives back which is what you will be seeing it on the screen OK every time you connect to a Linux machine y
 ou need a shell to interact with the operating system OK 
-all the commands that you type is actually you're typing it on a particular shell now in Linux as of now even though we have lot of shells available like you have 
+all the commands that you type is actually you're typing it on a particular shell now in Linux as of now even though we have lot of shells available like you have  <22:50>
 C shell SH or bash but we call it as bone again shell right one of the population that everyone uses in the market is bash 
 so every time you connect to a Linux machine in the terminal what you get is a bash shell which is the one which helps us to interact OK
 so now what do you do suppose you want to list some files create a folder right or you want to find some particular files then you open the command prompt in that 
