@@ -1,0 +1,58 @@
+For deployment you have docker and K8S
+CI CD Jenkins 
+same way for your testing you have selenium cucumber even though you have all these tools there will be some small small activities which you want to do to help in your day-to-day 
+which cannot be done by any of those tools like you want to send an e-mail OK 
+Now you quickly want to connect to a machine and delete some files OK some of the day-to-day commands that you run right 
+you want to automate them so in those cases installing and developing some kind of files in an automated tool will be very difficult 
+so that’s when scripting is very much essential
+one of the popular scripting is it’s a built-in option which comes along with your Linux system 
+so all you have to do is create a file and put in your logic and things will work OK 
+so that’s where it’s kind of necessary for all of us to know at least one kind of scripting 
+and to get started shell scripting would be a good place and once you know the scripting concepts 
+the same thing you can also apply to Python or go language or select as I said so that’s what is our agenda so today we’ll focus more on the core concepts of scripting 
+before we get deep dive right let’s get into the basic first 
+when you connect to a Linux machine through a command prompt or a terminal OK 
+So what happens so you see a black screen 
+So what is that screen so it's basically a shell OK 
+a shell is nothing but a process or in generic way if you think it's an environment to communicate between the user and the operating system 
+so that any commands that you want you give it through that the operating system will understand and the operating system will return the output through the same environment OK
+so between us that is the users and the kernel or operating system shell access environment like for example today between you guys and me we are using this application 
+like go to meeting which is helping us environment to communicate and share my screen 
+same way for a Linux operating system we use an environment called basically 
+shell is up process no anything we type in shall receives and sends it to the operating system or kernel 
+and whatever the kernel gives back which is what you will be seeing it on the screen OK every time you connect to a Linux machine y
+ou need a shell to interact with the operating system OK 
+all the commands that you type is actually you're typing it on a particular shell now in Linux as of now even though we have lot of shells available like you have 
+C shell SH or bash but we call it as bone again shell right one of the population that everyone uses in the market is bash 
+so every time you connect to a Linux machine in the terminal what you get is a bash shell which is the one which helps us to interact OK
+so now what do you do suppose you want to list some files create a folder right or you want to find some particular files then you open the command prompt in that 
+bash shell you type in whatever the commands that you want in sequence and based on that you would be getting an output in the same shell so that's how you interact OK 
+so remember that's the basics so anything you're interacting is through a shell and that's where now to do some activity there might be lot of commands that you have to run OK
+so manually what you do as I was telling you go to that bash shell in the terminal and you type in all the commands one by one in the sequence and then you get the output 
+so maybe you might have to run 3 commands or 4 commands or 10 commands depending on what you want to and that's when the scripting comes into the picture OK
+so instead of we manually typing or entering the commands 1 by 1 and achieve a task we can put those commands whatever that we were typing in the shell 
+which is basically what we call it as a script OK So what we will do so take a file which is basically a text file and in that text file you put the same sequence of commands
+whatever that you have executed in the shell manually OK and then it's not just that you're going to put only 
+the sequence of commands but you can also put some kind of logic on 
+* when it has to run
+* how it has to run OK 
+* where it has to run 
+so all those things you can also put together in the script and then you can execute so that execution becomes a automation OK
+so that way now instead of you opening the terminal and running everything manually you can put the same sequence of commands with some logic into a file and 
+whenever you want you execute that file or what we technically select is the script and that script will run those commands for you and based on the logic
+what you have executed you will be getting the result so that is how we will be able to use a script and now what kind of commands I'm talking these are your Linux commands 
+so your day-to-day Linux commands whatever you are going to use OK then this is when you take this file and put this Linux commands with some logic and execute 
+what happens is it will also create a new shell remember this crucial for technically we call it as spawning a new shell 
+which means every time similar to how you once again connect to the command prompt and open a bash shell now you put this into a file and execute 
+what will happen the operating system will create a new shell so this is where the terminal in which you have connected and you are executing the file becomes the parent shell
+the shell in which the commands that you have given in the script will get executed so those are called children shell OK 
+so basically to run your script you still need a shell and inside that the commands with the logic will be executed the only difference is instead of you running it manually
+anytime you execute the script a new shell will be created or spawned and all those commands will be executed OK 
+so this is where to run your script on a Linux you need a shell and hence we call it as a shell scripting OK 
+so very simple to understand so all those day-to-day commands in Linux whatever you are running if you want to automate put into a text file OK 
+and you need to put some logic and run so that anytime you run it will open or create a new shell and it will be executing everything in it so thus you do the automation 
+so now another basic what I'm just going to focus is to run your shell script you need a shell now it would be any type of the shell but as I said one of the publisher 
+that we prefer as of novice fashion so from now on anytime when we say shell scripting you are opening a bash what shell and in that you're 
+automating some commands to be running with some logic so that's what we need to and this is where whenever you're trying to write a shell script OK 
+the first line that you will be putting up is something which starts with hash which is called as shebang and followed by bash OK 
+so why do I need to specify this this is because now like I said you create a file which is just a text file and when you say run it
